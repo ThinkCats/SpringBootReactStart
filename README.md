@@ -6,7 +6,8 @@ This is a empty demo project, it just contains one module ,if necessary, you can
 You can start yourself project using the empty project , welcome fork.
 
 #### Know That
-If you use Intellij Idea , please change you run/debug setting , you should choose "$MODULE_DIR$" in this setting in order to reload the velocity templates when you change it's content.
+1.If you use Intellij Idea , please change you run/debug setting , you should choose "$MODULE_DIR$" in this setting in order to reload the velocity templates when you change it's content.
+2.If you need to use yourself data source ,please change application.properties config , this project use mysql.
 
 #### Run
 1.Run this project in your IDE (don't forget the  "know that" above)
