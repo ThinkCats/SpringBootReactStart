@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>$!title</title>
+        $!refers
+    </head>
+<body>
+    hi,
+    $!content
+</body>
+</html>
