@@ -10,7 +10,7 @@ You can start yourself project using the empty project , welcome fork.
 2.If you need to use yourself data source ,please change application.properties config , this project use mysql.
 
 #### Run
-1.Run this project in your IDE (don't forget the  "know that" above)
+1.Run this project in your IDE (don't forget the  "note that" above)
 
 2.Use mvn command(in the root directory of the project):
 ```bash
