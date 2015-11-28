@@ -10,7 +10,15 @@ You can start yourself project using the empty project , welcome fork.
 2.If you need to use yourself data source ,please change application.properties config , this project use mysql.
 
 #### Run
-1.Run this project in your IDE (don't forget the  "note that" above)
+1.Compile React js
+* install react-tools
+```bash
+sudo npm install -g react-tools
+```
+* compile jsx
+```bash
+ jsx --watch src/main/resources/static/1.0/dev/ src/main/resources/static/1.0/js/
+```
 
 2.Use mvn command(in the root directory of the project):
 ```bash
@@ -24,3 +32,18 @@ You can start yourself project using the empty project , welcome fork.
 用了spring-boot,以后在docker或者其他平台,部署项目就方便多了.
 
 应该没什么坑了,看以后有没有机会在实际中应用起来.
+
+#### 编译/运行
+* 编译react js文件,安装react-tools
+```bash
+sudo npm install -g react-tools
+```
+* 实时编译
+```bash
+ jsx --watch src/main/resources/static/1.0/dev/ src/main/resources/static/1.0/js/
+```
+
+* 项目启动
+```bash
+    mvn spring-boot:run
+```
