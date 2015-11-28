@@ -1,5 +1,5 @@
 ## ReactBoot
-This is a Spring Boot project (by SpringBoot + Velocity + Mybatis + ReactJs`TODO`)
+This is a Spring Boot project (by SpringBoot + Velocity + Mybatis + ReactJs)
 
 This is a empty demo project, it just contains one module ,if necessary, you can split it to more modules .
 
